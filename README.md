@@ -146,4 +146,120 @@ Gestion des livraisons :
 <p>3 - Représenter le diagramme de cas d'utilisation UML.</p>
 <br />
 <h3>Solution :</h3>
+<br />
+<p><b>1 - Les acteurs du système :</b></p>
+<ul>
+<li>Client (acteur principal)</li>
+<li>Administrateur (acteur principal)</li>
+<li>Livreur (acteur principal)</li>
+<li>Système de gestion de produit (acteur secondaire)</li>
+<li>Système de notification (acteur secondaire)</li>
+<li>Système de paiement (acteur secondaire)</li>
+</ul>
+<br />
+<p><b>2 - Les acteurs du système :</b></p>
+<table>
+<thead>
+<tr>
+<th>Acteur</th>
+<th>Cas d'utilisation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Client (acteur principal)</td>
+<td>
+<ul>
+<li>S'authentifier</li>
+<li>Gerer son profil</li>
+<li>Naviguer dans le catalogue du produits</li>
+<li>Ajouter un produit au panier</li>
+<li>Suivre l'état de la commande</li>
+<li>Choisir un mode de paiement</li>
+<li>Finaliser l'achat</li>
+</ul>
+</td>
+</tr>
+
+<tr>
+<td>Administrateur (acteur principal)</td>
+<td>
+<ul>
+<li>S'authentifier</li>
+<li>Valider ou annuler les commandes</li>
+<li>Suivre l'état de la commande</li>
+<li>Assurer le suivi des paiements</li>
+<li>Gestion des clients, et des livreurs</li>
+<li>Se notifier en cas d'echec de paiement, ou rupture en stock</li>
+</ul>
+</td>
+</tr>
+
+<tr>
+<td>Livreur (acteur principal)</td>
+<td>
+<ul>
+<li>S'authentifier</li>
+<li>Consulter les commandes qui lui sont attribuées</li>
+<li>Confirmer la livraison une fois effectuée</li>
+<li>Signaler des problèmes de livraison</li>
+</ul>
+</td>
+</tr>
+
+<tr>
+<td>Système d'authentification (acteur secondaire)</td>
+<td>
+<ul>
+<li>S'authentifier</li>
+</ul>
+</td>
+</tr>
+
+<tr>
+<td>Système de paiement (acteur secondaire)</td>
+<td>
+<ul>
+<li>Choisir un mode de paiement</li>
+<li>Assurer le suivi du paiement</li>
+<li>Finaliser l'achat</li>
+</ul>
+</td>
+</tr>
+
+<tr>
+<td>Système de Notification (acteur secondaire)</td>
+<td>
+<ul>
+<li>Suivre l'état de la commande</li>
+<li>Se notifier en cas d'echec de paiement, ou rupture en stock</li>
+<li>Signaler des problèmes de livraison</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<br />
+<p><b>3 - Diagramme de cas d'utilisation </b></p>
+<p><b>3 - 1 System de gestion des utilisateurs</b></p>
+<img src="./imgs/1.png" alt="diagramme de gestion des utilisateurs" />
+<br />
+<p><b>3 - 2 System de gestion des commandes (par acteur client)</b></p>
+<img src="./imgs/2.png" alt="diagramme de gestion des commandes" />
+<br />
+<p><b>3 - 3 System de gestion des commandes (par acteur livreur)</b></p>
+<img src="./imgs/3.png" alt="diagramme de gestion des commandes" />
+<br />
+<p><b>3 - 4 System de gestion des commandes (par acteur administrateur)</b></p>
+<img src="./imgs/4.png" alt="diagramme de gestion des commandes" />
+<br />
+<p><b>3 - 5 System de gestion livraison</b></p>
+<img src="./imgs/5.png" alt="diagramme de gestion de livraison" />
+
+
+
+
+
+
+
 
